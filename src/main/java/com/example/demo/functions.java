@@ -105,6 +105,7 @@ private int partition(ArrayList<SingleDataFormat> list, int low, int high) {
     return i + 1;
 }
 
+
 public ArrayList<SingleDataFormat> heapSort(int col) {
     ArrayList<SingleDataFormat> temDataSet = new ArrayList<>();
     for (Data d : data) {
@@ -140,6 +141,7 @@ private void heapify(ArrayList<SingleDataFormat> list, int n, int i) {
         heapify(list, n, largest);
     }
 }
+
 
 public ArrayList<SingleDataFormat> insertionSort(int col) {
     ArrayList<SingleDataFormat> temDataSet = new ArrayList<>();
