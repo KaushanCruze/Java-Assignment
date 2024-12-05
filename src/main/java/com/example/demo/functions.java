@@ -39,6 +39,7 @@ public ArrayList<SingleDataFormat> shellSort(int col){
         }
         return temDataSet;
     }
+    
 public ArrayList<SingleDataFormat> mergeSort(int col) {
     ArrayList<SingleDataFormat> temDataSet = new ArrayList<>();
     for (Data d : data) {
